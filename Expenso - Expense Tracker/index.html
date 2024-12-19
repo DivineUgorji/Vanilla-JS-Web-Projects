@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/3de0e61c18.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expenso - Expense Tracking Application</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="app-title primary-text">Expenso - Expense Tracker</h1>
+        <div class="profile-container">
+          <img
+            class="profile-picture"
+            src="images/user.jpg"
+            alt="user profile picture"
+          />
+          <div>
+            <p class="profile__greeting">Greetings my Lord 👑</p>
+            <p class="profile__name">Divine Ugorji</p>
+          </div>
+          <img
+            class="notification-bell"
+            src="./images/Bell_pin.png"
+            alt=""
+            height="24"
+            width="24"
+          />
+        </div>
+
+        <div class="balance-container flow-content">
+          <p class="balance__text">Total Balance</p>
+          <p id="balance" class="account-balance">$25,000.40</p>
+          <div class="wallet-group">
+            <p class="wallet-text sub-text">My wallet</p>
+            <i class="wallet-icon fa-solid fa-wallet"></i>
+          </div>
+        </div>
+
+        <div class="funds-container">
+          <div class="income-wrapper flow-content">
+            <i
+              class="income-icon fa-solid fa-arrow-down fa-2x fa-bounce"
+              style="
+                --fa-bounce-land-scale-x: 1.2;
+                --fa-bounce-land-scale-y: 0.8;
+                --fa-bounce-rebound: 5px;
+                --fa-animation-duration: 5s;
+              "
+            ></i>
+            <div class="">
+              <p class="sub-text">Income</p>
+              <p id="income-amount" class="income-amount income">$20,0000</p>
+            </div>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="expenses-wrapper flow-content">
+            <i
+              class="expense-icon fa-solid fa-arrow-up fa-2x fa-bounce"
+              style="
+                --fa-bounce-land-scale-x: 1.2;
+                --fa-bounce-land-scale-y: 0.8;
+                --fa-bounce-rebound: 5px;
+                --fa-animation-duration: 5s;
+              "
+            ></i>
+            <div class="">
+              <p class="sub-text">Expense</p>
+              <p id="expense-amount" class="expense-amount expense">$17,000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="transaction-history-container">
+          <h2 class="primary-text history-text">Transactions</h2>
+          <ul class="item-lists" id="item-lists" role="list">
+            <!-- <li class="item-list plus" role="list">
+              <div class="item-list-wrapper flex-style">
+                <img src="images/trans-icon.png" alt="" />
+                <div class="history-item-group">
+                  <h4 class="text--bold">Sony Camera</h4>
+                  <p class="text--regular">Shopping fee</p>
+                </div>
+                <div class="delete-group flex-style">
+                  <p class="text--bold history-amount">-$3000</p>
+                  <button id="delete-btn" class="delete-btn">delete</button>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="new-transaction-container">
+          <h2 class="primary-text">New Transaction</h2>
+          <form id="form">
+            <div class="form-container">
+              <label class="text--bold" for="Transaction Item">Item</label>
+              <input
+                type="text"
+                placeholder="Enter transaction item..."
+                name="Transaction Item"
+                class="item"
+                id="add-item"
+              />
+            </div>
+
+            <div class="form-container">
+              <label class="text--bold" for="description">Description</label>
+              <input
+                type="text"
+                name="description"
+                placeholder="Enter item description"
+                id="add-item-description"
+                class="text--regular"
+              />
+            </div>
+
+            <div class="form-container">
+              <label class="text--bold" for="amount"
+                >Amount <br />
+                <span class="text--regular"
+                  >Add the negative sign for your expense amount</span
+                >
+              </label>
+              <input
+                type="number"
+                name="amount"
+                placeholder="Enter item amount..."
+                class="amount"
+                id="add-amount"
+                class="text--regular"
+              />
+            </div>
+
+            <button class="btn form-btn text--bold">Add Transaction</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    </p>
+  </body>
+</html>
+
+<!-- FONTS -->
+<!-- Plus Jakarta Sans fw = semibold 32px fw = semibold 18px fw = semibold 20px -->
+<!--  -->
+<!-- Inter fw = semibold 18px fw = regular 12px fw = semibold 16px fw = regular 14px -->

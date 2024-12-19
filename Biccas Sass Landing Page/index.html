@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bicass Sass Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+           <a href="#">
+            <img src="image/logo.png" alt="Home Page" width="150" height="40"/>
+           </a>
+
+           <button class="mobile-nav-toggle"  aria-controls="primary-nav" aria-expanded="false"><span class="sr-only"><Menu></Menu></span></button>
+            <nav class="primary-nav flex-style" id="primary-nav" data-visible="false">
+             <ul class="flex-style" role="list" aria-label="primary-nav">
+               <li><a class="nav-link" href="#">Home</a></li>
+               <li><a class="nav-link" href="#">Product</a></li>
+               <li><a class="nav-link" href="#">FAQ</a></li>
+               <li><a class="nav-link" href="#">Blog</a></li>
+               <li><a class="nav-link" href="#">About Us</a></li>
+             </ul>
+
+             <ul class="nav-group flex-style" role="list">
+               <li><a class="nav-link" role="list" href="#">Login</a></li>
+               <li><a class="btn" role="list" href="#">Sign Up</a></li>
+             </ul> 
+           </nav>
+        </div>
+      </div>
+   </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-flex">
+            <div class="hero-text-block flow-content">
+              <h1 class="primary-heading">We’re here to Increase your Productivity</h1>
+              <img src="image/Vector-line.png" alt="" width="487" height="34"/>
+              <p class="hero-text">
+                Let's make your work more organize and easily using the Taskio
+                Dashboard with many of the latest featuresin managing work every
+                day.
+              </p>
+              <div class="demo-group">
+                <a href="#" class="btn">Try for free</a>
+                <a href="#"><img src="image/play.png" alt="video play link" /></a>
+              </div>
+            </div>
+            <div class="hero-img-block">
+              <img src="image/hero-img.png" alt="A happy man smiling" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-orgs">
+        <div class="container">
+          <h2>More than 25,000 teams use Collabs</h2>
+            <div class="featured-logos">
+              <img src="image/unsplash-logo.png" alt="" width="180" height="38" />
+              <img src="image/notion-logo.png" alt="" width="145" height="36" />
+              <img src="image/intercom-logo.png" alt="" width="201" height="36" />
+              <img src="image/decript.png" alt="" width="154" height="36"/>
+              <img src="image/gramarly-logo.png" alt="" width="196" height="36" />
+            </div>
+        </div>
+      </section>
+
+      <section class="featured-support">
+        <div class="container featured-flex">
+          <div class="flow-content--small">
+            <h2>we support our partners all over the world</h2>
+
+            <p>
+              SaaS become a common delivery model for many business application,
+              including office software, messaging software, payroll processing
+              software, DBMS software, management software
+            </p>
+            <div class="flex-style">
+              <div class="flow-content--xsmall">
+                <img src="image/5-star-icon.png" alt="" />
+                <p><span>4.9 </span>/ 5 rating</p>
+                <p>databricks</p>
+              </div>
+
+              <div class="flow-content--xsmall">
+                <img src="image/4-satar-icon.png" alt="" />
+                <p><span>4.8 </span>/ 5 rating</p>
+                <p>Chainalysis</p>
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="flow-content--small">
+              <div class="feature flex-style">
+                <div class="icon"><img class="feature-icon" src="image/publishing.png" alt="" width="30" height="30"/></div>
+                <div class="flow-content--xsmall">
+                  <h4>Publishing</h4>
+                  <p>
+                    Plan, collaborate, and publishing your contetn that drivees
+                    meaningful engagement and growth for your barnd
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature flex-style">
+                <div class="icon"><img class="feature-icon" src="image/analytics.png" alt="" width="30" height="30"/></div>
+                <div class="flow-content--xsmall">
+                  <h4>Analytics</h4>
+                  <p>Analyze your performance and create goegeous report</p>
+                </div>
+              </div>
+
+              <div class="feature flex-style">
+                <div class="icon"><img class="feature-icon" src="image/engagement.png" alt="" width="30" height="30"/></div>
+                <div class="flow-content--xsmall">
+                  <h4>Engagement</h4>
+                  <p>Quiuckly navigate you anda engage with your adience</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="featured-services">
+        <div class="container flow-content">
+          <div class="flex-style">
+            <h2>Our Features you cab get</h2>
+            <p>
+              We offer a variety of interesting features that you can help
+              increase yor productivity at work and manage your projrct esaly
+            </p>
+           <li><a href="#">Get Started</a></li>
+          </div>
+          <div class="featured-services-flex">
+            <div class="flow-content--xsmall">
+              <img src="image/collab-product.png" alt="" />
+              <h4>Collboration Teams</h4>
+              <p class="body-text">Here you can handle projects together with team virtually</p>
+            </div>
+            <div  class="flow-content--xsmall">
+              <img src="image/cloud-product.png" alt="" />
+              <h4>Cloud Storage</h4>
+              <p class="body-text">
+                No nedd to worry about storage because we provide storage up to 2
+                TB
+              </p>
+            </div>
+            <div class="flow-content--xsmall">
+              <img src="image/cloud-product.png" alt="" />
+              <h4>Daily Analytics</h4>
+              <p class="body-text">
+                We always provide useful informatin to make it easier for you
+                every day
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-benefits">
+        <div class="container featured-benefits-flex">
+          <div class="benefits-text-block flow-content--small">
+            <h3>What Benefit You Will Get</h3>
+            <div class="flex-style">
+              <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+              <p>Free Consulting With Experet Saving Money</p>
+            </div>
+
+            <div class="flex-style">
+              <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+              <p>Online Banking</p>
+            </div>
+
+            <div class="flex-style">
+              <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+              <p>Investment Report Every Month</p>
+            </div>
+
+            <div class="flex-style">
+              <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+              <p>Saving Money For The Future</p>
+            </div>
+
+            <div class="flex-style">
+              <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+              <p>Online Transection</p>
+            </div>
+          </div>
+
+          <div>
+           <img src="image/benefit-img.png" alt=""/>
+         </div>
+        </div>
+      </section>
+
+      <section class="pricing-plan">
+        <h2>Choose Plan That’s Right For You</h2>
+        <p class="body-text">Choose plan that works best for you, feel free to contact us</p>
+
+        <!-- Pricing plan toogle feature -->
+        <div class="pricing-toggle"></div>
+
+        <div class="pricing-grid">
+          <div class="free-pricing-plan">
+            <h4>Free</h4>
+            <p class="body-text">Have a go and test your superpowers</p>
+            <p>$<span class="free-plan__amount">0</span></p>
+            <div class="pro-plan-bg">
+              <div class="flex-style">
+                <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+                <p>2 Users</p>
+              </div>
+              <div class="flex-style">
+                <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+                <p>2 Files</p>
+              </div>
+              <div class="flex-style">
+                <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+                <p>Public Share & Comments</p>
+              </div>
+              <div class="flex-style">
+                <img src="image/feature-icon.png" alt="" height="32" width="32"/>
+                <p>Chat Support</p>
+              </div>
+              <div class="flex-style">
+                <img src="image/feature-icon.png" alt="" height="32" width="32">
+                <p>New income apps</p>
+              </div>
+                <a class="btn" href="#">Go to pro</a>
+            </div>
+          </div>
+
+          <div class="pro-plan">
+            <h4>Pro</h4>
+            <p>Experiment the power of infinite possibilities</p>
+            <p>$<span class="free-plan__amount">8</span></p>
+            <div class="free-plan-bg">
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>4 Users</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>All apps</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>Unlimited editable exports</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>Folders and collaboration</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>All incoming apps</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="business-plan">
+            <h4>Business</h4>
+            <p>Unveil new superpowers and join the Design Leaque</p>
+            <p>$<span class="free-plan__amount">8</span></p>
+            <div class="business-plan-bg">
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>All the features of pro plan</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>Account success Manager</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>Single Sign-On (SSO)</p>
+              </div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>Co-conception pogram</p>
+              </div>
+              <div>
+                <img src="image/feature-icon.png" alt="" />
+                <p>Collaboration-Soon</p>
+              </div>
+            </div>
+         </div>
+        </div>
+      </section>
+
+      <section class="section-testimomial">
+        <div>
+          <h2>What People Are Saying About Us</h2>
+          <p>Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
+        </div>
+
+        <div class="testimonial__slider">
+          <div class="slide slide-1">
+            <div class="testimonials">
+              <img src="image/testimonial-icon.png" alt="">
+              <h4 class="testimonial__title">The best Sass for startups</h4>
+              <blockquote class="testimomial__text">
+                I am very helped by this E-wallet application ,
+                my days are very easy to use this application
+                and its very helpful in my life , even I can pay a short time 😍
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="image/testimonial-1.png" alt="">
+                <p class="testimonial__author-name">Konte Andrews</p>
+                <p class="testimonial__autor-location">Alabama, USA</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide slide-2">
+            <div class="testimonials">
+              <img src="image/testimonial-icon.png" alt="">
+              <h4 class="testimonial__title">Effortless workflow automation!</h4>
+              <blockquote class="testimomial__text">
+                This app has transformed our workflow! 
+                The interface is intuitive, and the customer support team 
+                went above and beyond to help us get started. 
+                We've saved hours each week thanks to the automation features. 
+                Highly recommended!
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="image/testimonial-2.png" alt="">
+                <p class="testimonial__author-name">Sarah T.</p>
+                <p class="testimonial__autor-location">New York, USA</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide slide-3">
+            <div class="testimonials">
+              <img src="image/testimonial-icon.png" alt="">
+              <h4 class="testimonial__title">The ultimate productivity booster!</h4>
+              <blockquote class="testimomial__text">
+                After trying several solutions, this app stood out as the best. 
+                It's fast, reliable, and packed with useful features that fit perfectly into our operations. 
+                It has made such a difference in our team's productivity
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="image/testimonial-3.png" alt="">
+                <p class="testimonial__author-name">James W.</p>
+                <p class="testimonial__autor-location">London, UK</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide slide-3">
+            <div class="testimonials">
+              <img src="image/testimonial-icon.png" alt="">
+              <h4 class="testimonial__title">A game-changer for small businesses!</h4>
+              <blockquote class="testimomial__text">
+                "This app has exceeded our expectations! 
+                The user experience is fantastic, and we've seen a noticeable improvement 
+                in our efficiency since using it. 
+                It’s a game-changer for small businesses like ours!"
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="image/testimonial-4.png" alt="">
+                <p class="testimonial__author-name">Maria Garret</p>
+                <p class="testimonial__autor-location"> Melbourne, Australia</p>
+              </address>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-control"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>
+          <img src="image/logo.png" alt="">
+          <p>Get started now, try our product</p>
+          <div class="form">
+            <div class="form__email"></div>
+          </div>
+        </div>
+
+        <div class="support-flex">
+          <p>Support</p>
+          <p>Help centre</p>
+          <p>Account information</p>
+          <p>About</p>
+          <p>Contact us</p>
+        </div>
+        <div class="help-flex">
+          <p>Help and Solution</p>
+          <p>Talk to support</p>
+          <p>Support docs</p>
+          <p>System statusAbout</p>
+          <p>Covid respond</p>
+        </div>
+        <div class="product-flex">
+          <ul role="list">
+            <li>Product</li>
+            <li>Update</li>
+            <li>Security</li>
+            <li>Beta test</li>
+            <li>Pricing product</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div>
+          <p>© 2022 Biccas Inc. Copyright and rights reserved</p>
+        </div>
+        <div>
+          <div>
+            <p>Terms and Condtions</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
