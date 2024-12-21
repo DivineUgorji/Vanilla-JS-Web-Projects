@@ -1,7 +1,7 @@
 <div align = "center"> 
 <h1 align="center"> Expeno - Expense Tracking Application</h1>
 
-<h3>This Resource Here Is Completely For The Purpose Of Practise a
+<h3>This Resource Here Is Completely For The Purpose Of Practise
 And Learning.</h3>
 
 <br>
@@ -23,26 +23,30 @@ And Learning.</h3>
 
 ### Project Overview:
 
-- The Expeso - Expense tracking application is a simple Javascript app for keep private income and expense accounts.
+- Expeso - Expense tracker is a simple Javascript application for keeping private income and expense accounts.
 
-- Users can be able to add expense items, descriptions of the items and the amounts.
+- Users can be able to add expense items, descriptions of the items and their amounts.
 
 - Users are also able to delete the transactions and the data is persisted on their local storage.
 
 ### Links
 
-- Check out the website[:Live site URL](https://the-odin-homepage.netlify.app/)
+- Check out the website[:Live site URL](https://expenso-expense-tracker.vercel.app/)
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- BEM Methodology
-- Javascript
-- Local storage for data persistence
+<ul>
+ <li>Semantic HTML5 markup</li>
+ <ul>CSS custom properties
+<li>CSS custom properties</li>
+<li>CSS Flexbox</li>
+<li>CSS Grid</li>
+ <li>BEM Methodology</li>
+ </ul>
+ <li>Mobile-first workflow</li>
+ <li>Javascript</li>
+ <li>Local storage for data persistence</li>
+</ul>
 
 ### What I learned
 
