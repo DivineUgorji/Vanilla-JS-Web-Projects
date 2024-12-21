@@ -1,0 +1,6 @@
+body {
+  background: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
