@@ -37,7 +37,8 @@ And Learning.</h3>
 
 <ul>
  <li>Semantic HTML5 markup</li>
- <ul>CSS custom properties
+ <ul>
+<li>CSS custom properties</li>
 <li>CSS custom properties</li>
 <li>CSS Flexbox</li>
 <li>CSS Grid</li>
