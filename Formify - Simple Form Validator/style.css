@@ -1,6 +1,121 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/poppins-v22-latin/poppins-v22-latin-regular.woff2')
+    format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/poppins-v22-latin/poppins-v22-latin-600.woff2')
+    format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --clr-primary-bg: hsl(222.2, 47.4%, 11.2%);
+  --clr-primary-accent: hsl(221.2, 83.2%, 53.3%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(215, 20.2%, 65.1%);
+
+  --font-family: 'Poppins', sans-serif;
+  --fw-semi-bold: 600;
+  --fw-regular: 400;
+
+  --fs-semi-bold: 3.25rem;
+  --fs-regular: 1.125rem;
+  --fs-small: 0.875rem;
+
+  --line-height--bold: 1.8735rem;
+  --line-height--regular: 0.32;
+
+  --body-padding: 9.375rem;
+
+  --spacer: 1.5rem;
+  --break: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
 body {
+  /* line-height: 1.5; */
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* Utility Classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body {
+  background: coral;
+  color: black;
+}
+
+body {
+  font-family: var(--font-family);
   display: grid;
   place-items: center;
   color: black;
   background-color: lightyellow;
+  margin-block: 5rem;
 }
